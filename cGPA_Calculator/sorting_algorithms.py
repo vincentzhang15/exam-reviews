@@ -1,15 +1,17 @@
 def bubble_sort(data):
-    print("Original:", data)
+    if __name__ == "__main__": print("BUBBLE SORT ------------------------------------------------\nOriginal:", data)
     for i in range(len(data) - 1, 0, -1): # Sorted boundary
         for j in range(i): # Swap up to boundary
-            print(f"i:{i}, j:{j}, j+1:{j+1}")
+            print(f"i:{i}, j:{j}, j+1:{j+1}", end=" ")
             if data[j] > data[j+1]: # Swap if necessary
+                print(f"Swapping {data[j]} and {data[j+1]}", end="")
                 data[j], data[j+1] = data[j+1], data[j]
                 # Concurrent swap alternative: 3 variables
+            print()
         print(f'Pass {len(data)-i}: {data}')
 
 if __name__ == "__main__":
-    bubble_sort([10, 2, 2, 7, 8, 1])
+    bubble_sort([3, 1, 6, 4, 9, 8])
     print('\n'*2)
 
 """Output
@@ -39,7 +41,7 @@ Pass 5: [1, 2, 2, 7, 8, 10]
 
 
 def selection_sort(data):
-    print("Original:", data)
+    if __name__ == "__main__": print("SELECTION SORT ------------------------------------------------\nOriginal:", data)
     for i in range(len(data) - 1): # < i: sorted part
         min_index = i
         for j in range(i + 1, len(data)): # Find min
@@ -79,19 +81,20 @@ Pass 5: [1, 2, 2, 7, 8, 10]
 
 
 def insertion_sort(data):
-    # print("Original:", data)
+    if __name__ == "__main__": print("INSERTION SORT ------------------------------------------------\nOriginal:", data)
     for i in range(1, len(data)): # < i sorted
         j = i
         value = data[j]
         # Shift to correct position
         while j > 0 and data[j-1] > value:
-            # print(f"i:{i}, j:{j}, j-1:{j-1}")
+            print(f"i:{i}, j:{j}, j-1:{j-1}")
             data[j] = data[j-1]
             j -= 1
         data[j] = value
-        # print(f'Pass {i}: {data}')
+        print(f'Pass {i}: {data}')
 if __name__ == "__main__":
     insertion_sort([10, 2, 2, 7, 8, 1])
+    print('\n'*2)
 
 """Output
 Original: [10, 2, 2, 7, 8, 1]
