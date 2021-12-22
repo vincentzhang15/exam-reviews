@@ -1,3 +1,10 @@
+"""
+Sorting algorithm demonstration for the final exam review of the introduction to comp sci course.
+@author Vincent Zhang
+@since 8 December 2021
+"""
+
+
 def bubble_sort(data):
     if __name__ == "__main__": print("BUBBLE SORT ------------------------------------------------\nOriginal:", data)
     for i in range(len(data) - 1, 0, -1): # Sorted boundary

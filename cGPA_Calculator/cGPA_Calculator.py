@@ -1,3 +1,9 @@
+"""
+Holistic cGPA calculator program to demonstrate the integration of major topics in the introduction to computer science course.
+Code presented in the final exam review on December 8, 2021.
+@author Vincent Zhang
+@since 8 December 2021
+"""
 
 END = 'END'
 COURSE = 'Course'

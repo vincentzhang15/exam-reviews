@@ -1,3 +1,8 @@
+"""
+Set of dictionary traversal exercises created for the final exam review for the introduction to computer science course.
+@author Vincent Zhang
+@since 8 December 2021
+"""
 
 print("****************** EXERCISE 1 ***************************************************")
 # Dict[str, str]

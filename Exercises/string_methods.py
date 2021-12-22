@@ -1,3 +1,10 @@
+"""
+Program to practice algorithmic thinking by recreating Python 3's string methods.
+Also demonstrates the purpose of the __name__ variable.
+@author Vincent Zhang
+@since 8 December 2021
+"""
+
 def rfind(string: str, sub: str) -> int:
     """
 

@@ -1,3 +1,7 @@
+$$ Input file for the cGPA_Calculator program.
+$$ @author Vincent Zhang
+$$ @since 8 December 2021
+
 $$FORMAT$$ (% grade) (% weight)
 
 Course:Intro to CS

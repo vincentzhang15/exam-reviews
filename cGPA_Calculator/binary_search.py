@@ -1,3 +1,9 @@
+"""
+Demonstrate the binary search algorithm for the final exam review of the introduction to comp sci course.
+@author Vincent Zhang
+@since 8 December 2021
+"""
+
 def bin_search(data, val):
     s = 0
     e = len(data) - 1
