@@ -1,3 +1,10 @@
+/**
+ * Linked list library made for the Introduction to Computer Science in C course Final Exam Review.
+ * Features: insert, delete, reverse, sort.
+ * @author Vincent Zhang
+ * @since 2022-04-24
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
